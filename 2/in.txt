@@ -1,0 +1,5 @@
+0 ababaab
+1 abcba
+1 aaabbbbaa
+2 abcba
+3 abcba
