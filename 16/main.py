@@ -19,7 +19,7 @@ class Log:
 
     def record(self, text):
         self.entries[self.index % self.length] = text
-        self.index += 1
+        self.index = (self.index + 1) % self.length
 
     def get_last(self, i):
         return self.entries[(self.index + self.length - i) % self.length]
